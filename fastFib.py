@@ -5,8 +5,7 @@ def fastFib(n, memo = {}):
         	return memo[n]
 	except:
         	result = fastFib(n - 1, memo) + fastFib(n - 2, memo)
-
-        	memo[n] = result
+		memo[n] = result
        		return result
 
 fastFib(135)
