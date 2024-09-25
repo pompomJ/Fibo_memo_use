@@ -3,7 +3,7 @@ def fastFib(n, memo = {}):
         	return 1
 	try:
         	return memo[n]
-    	except:
+	except:
         	result = fastFib(n - 1, memo) + fastFib(n - 2, memo)
 
         	memo[n] = result
