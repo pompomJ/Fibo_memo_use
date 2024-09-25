@@ -9,4 +9,4 @@ def fastFib(n, memo = {}):
         	memo[n] = result
        		return result
 
-print(fastFib(135))
+fastFib(135)
